@@ -1,6 +1,6 @@
 <?php
-
-    if (basename($_SERVER['REQUEST_URI'], '?' . $_SERVER['QUERY_STRING']) == "index.php" or "panchee") {?>
+    if (basename($_SERVER['REQUEST_URI'], '?' . $_SERVER['QUERY_STRING']) == "index.php" or
+basename($_SERVER['REQUEST_URI'], '?' . $_SERVER['QUERY_STRING']) == "panchee" ) {?>
         <header data-anim="fade" data-add-bg="custom-header" class="header -type-1 js-header shadow">
     <?php }
     else {?>
