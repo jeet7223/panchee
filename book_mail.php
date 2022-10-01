@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $mail->SMTPSecure='tls';
 
     $mail->Username='sdpfooddelivery2022@gmail.com';
-    $mail->Password='sfcigwyrmldvajag';
+    $mail->Password='ss';
 
     $mail->setFrom('sdpfooddelivery2022@gmail.com', 'Panchee School Of Music');
     $mail->addAddress('jeetparmar7223@gmail.com');
