@@ -1,0 +1,215 @@
+.why-panchee-img-1{
+    height: 250px;
+}
+.why-panchee-img-5{
+    height: 400px;
+}
+.why-panchee-img-6{
+    height: 400px;
+}
+.shadow-card{
+    background: #fff !important;
+    box-shadow: 0 14px 50px rgba(0, 0, 0, 0.2) !important;
+    min-height: 650px;
+}
+.custom-header{
+    background: #ffffff;
+}
+.custom-header{
+    box-shadow: 0 14px 50px rgba(0, 0, 0, 0.2) !important;
+}
+.custom-header .header-menu .menu__nav a{
+    color: var(--color-dark-1);
+}
+.custom-header .btn-signup-scroll{
+    background-color: #34a853 !important;
+    color: #fff;
+}
+.custom-header .btn-signup-scroll:hover{
+    background-color: #34a853 !important;
+    color: #fff;
+}
+.login{
+    font-weight: bold;
+}
+.custom-header .text-white{
+    color: #34a853 !important;
+}
+.custom-header .header-menu .menu__nav > li:hover > a {
+    color: var(--color-green-5) !important;
+    background-color: #f4fef1;
+}
+
+.custom-header .header__logo img{
+    content: url(../img/logo_dark.png);
+}
+.course-section{
+    margin-top: 5em !important;
+}
+
+.testimonials-button button{
+    background-color: #34a853;
+    color: #fff;
+    padding: 10px 18px;
+    border-radius: 50%;
+    margin: 1em;
+    border:2px solid #34a853;
+}
+.testimonials-button button:hover{
+    background-color: #ffffff;
+    color: #34a853;
+
+}
+.testimonial-bellow-section{
+    margin-top: 2em;
+}
+.testimonial-pagination .swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #34a853;
+}
+.testimonial-pagination .swiper-pagination-bullet{
+    margin: 5px;
+}
+
+@media (max-width:767px) {
+    .cta.-type-1 {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .course-section{
+        margin-top: 1em !important;
+    }
+    .masthead.-type-1 {
+        padding: 140px 0 160px !important;
+        margin-bottom: 0 !important;
+    }
+
+    .why-panchee-img-6{
+        height: auto;
+    }
+
+}
+@media (max-width:991px) {
+
+    .why-panchee-img-6{
+        height: auto !important;
+    }
+    .why-panchee-img-5 {
+        height: auto !important;
+    }
+    .why-panchee-img-1 {
+        height: 200px !important;
+    }
+
+}
+
+ .coursesCard{
+    box-shadow: 0 14px 50px rgba(0, 0, 0, 0.1) !important;
+     min-height: 40vh !important;
+}
+ .section-slider-nav{
+     color: #34a853;
+     box-shadow: 0 14px 50px rgba(0, 0, 0, 0.2) !important;
+ }
+.course-section .swiper-wrapper{
+     height: 520px !important;
+ }
+.plan-card{
+    border: 1px solid #fff;
+    background: #fff;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    padding: 1em 30px;
+    width: 100%;
+    margin-bottom: 1em;
+    min-height: 460px;
+}
+.plan-card ol li{
+    list-style: unset !important;
+}
+.plan-card .plan-heading{
+    color: #140342;
+    font-weight: bold;
+}
+.plan-card .plan-description{
+    margin: 10px 0;
+}
+.plan-card .plan-content strong{
+    color: #34a853;
+}
+.plan-card{
+    display: flex;
+    flex-direction: column;
+}
+
+.plan-card button{
+    margin-top: auto;
+}
+.teacher-card-section .coursesCard{
+    min-height: unset !important;
+}
+.testimonial-swiper{
+    overflow: hidden !important;
+}
+.testimonials-section-container .testimonials{
+    min-height: 550px;
+    display: block !important;
+}
+.testimonials-section-container .review-person{
+    position: absolute;
+    bottom: 40px;
+    left: 60px;
+}
+#scroll-up-button{
+    color: #ffffff;
+    background: #34a853;
+    position: fixed;
+    width: 48px;
+    height: 48px;
+    line-height: 47px;
+    right: 15px;
+    bottom: 60px;
+    cursor: pointer;
+    z-index: 11;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    border-radius: 5px;
+
+
+}
+.blogCard__image img{
+    height: 400px;
+}
+.alert-success{
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+.alert-danger{
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb
+}
+.alert{
+
+    padding: 20px;
+    border-radius: 5px;
+    margin: 7px;
+    margin-bottom: 15px;
+}
+.plan-section {
+    margin-top: 8em;
+}
+#day_slot{
+    outline: none;
+    width: 100%;
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 15px 22px;
+    transition: all .15s cubic-bezier(.165,.84,.44,1);
+}
